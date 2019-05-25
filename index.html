@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Ходы коня</title>
+  </head>
+  <body>
+    <div class="сhess-board">
+      <div class="letters letters-up">
+        <div class="let-a let">A</div>
+        <div class="let-b let">B</div>
+        <div class="let-c let">C</div>
+        <div class="let-d let">D</div>
+        <div class="let-e let">E</div>
+        <div class="let-f let">F</div>
+        <div class="let-g let">G</div>
+        <div class="let-h let">H</div>
+      </div>
+      <div class="numbers left-numbers">
+        <div class="num-1 num">1</div>
+        <div class="num-2 num">2</div>
+        <div class="num-3 num">3</div>
+        <div class="num-4 num">4</div>
+        <div class="num-5 num">5</div>
+        <div class="num-6 num">6</div>
+        <div class="num-7 num">7</div>
+        <div class="num-8 num">8</div>
+      </div>
+      <div id="board" class="board">
+        <div class="board-line">
+          <div class="white-point point" id="a8"></div>
+          <div class="black-point point" id="b8"></div>
+          <div class="white-point point" id="c8"></div>
+          <div class="black-point point" id="d8"></div>
+          <div class="white-point point" id="e8"></div>
+          <div class="black-point point" id="f8"></div>
+          <div class="white-point point" id="g8"></div>
+          <div class="black-point point" id="h8"></div>
+        </div>
+        <div class="board-line">
+          <div class="black-point point" id="a7"></div>
+          <div class="white-point point" id="b7"></div>
+          <div class="black-point point" id="c7"></div>
+          <div class="white-point point" id="d7"></div>
+          <div class="black-point point" id="e7"></div>
+          <div class="white-point point" id="f7"></div>
+          <div class="black-point point" id="g7"></div>
+          <div class="white-point point" id="h7"></div>
+        </div>
+        <div class="board-line">
+          <div class="white-point point" id="a6"></div>
+          <div class="black-point point" id="b6"></div>
+          <div class="white-point point" id="c6"></div>
+          <div class="black-point point" id="d6"></div>
+          <div class="white-point point" id="e6"></div>
+          <div class="black-point point" id="f6"></div>
+          <div class="white-point point" id="g6"></div>
+          <div class="black-point point" id="h6"></div>
+        </div>
+        <div class="board-line">
+          <div class="black-point point" id="a5"></div>
+          <div class="white-point point" id="b5"></div>
+          <div class="black-point point" id="c5"></div>
+          <div class="white-point point" id="d5"></div>
+          <div class="black-point point" id="e5"></div>
+          <div class="white-point point" id="f5"></div>
+          <div class="black-point point" id="g5"></div>
+          <div class="white-point point" id="h5"></div>
+        </div>
+        <div class="board-line">
+          <div class="white-point point" id="a4"></div>
+          <div class="black-point point" id="b4"></div>
+          <div class="white-point point" id="c4"></div>
+          <div class="black-point point" id="d4"></div>
+          <div class="white-point point" id="e4"></div>
+          <div class="black-point point" id="f4"></div>
+          <div class="white-point point" id="g4"></div>
+          <div class="black-point point" id="h4"></div>
+        </div>
+        <div class="board-line">
+          <div class="black-point point" id="a3"></div>
+          <div class="white-point point" id="b3"></div>
+          <div class="black-point point" id="c3"></div>
+          <div class="white-point point" id="d3"></div>
+          <div class="black-point point" id="e3"></div>
+          <div class="white-point point" id="f3"></div>
+          <div class="black-point point" id="g3"></div>
+          <div class="white-point point" id="h3"></div>
+        </div>
+        <div class="board-line">
+          <div class="white-point point" id="a2"></div>
+          <div class="black-point point" id="b2"></div>
+          <div class="white-point point" id="c2"></div>
+          <div class="black-point point" id="d2"></div>
+          <div class="white-point point" id="e2"></div>
+          <div class="black-point point" id="f2"></div>
+          <div class="white-point point" id="g2"></div>
+          <div class="black-point point" id="h2"></div>
+        </div>
+        <div class="board-line">
+          <div class="black-point point" id="a1"></div>
+          <div class="white-point point" id="b1"></div>
+          <div class="black-point point" id="c1"></div>
+          <div class="white-point point" id="d1"></div>
+          <div class="black-point point" id="e1"></div>
+          <div class="white-point point" id="f1"></div>
+          <div class="black-point point" id="g1"></div>
+          <div class="white-point point" id="h1"></div>
+        </div>
+      </div>
+      <div  class="numbers right-numbers">
+        <div class="num-1 num">1</div>
+        <div class="num-2 num">2</div>
+        <div class="num-3 num">3</div>
+        <div class="num-4 num">4</div>
+        <div class="num-5 num">5</div>
+        <div class="num-6 num">6</div>
+        <div class="num-7 num">7</div>
+        <div class="num-8 num">8</div>
+      </div>
+      <div  class="letters letters-down">
+        <div class="let-a let">A</div>
+        <div class="let-b let">B</div>
+        <div class="let-c let">C</div>
+        <div class="let-d let">D</div>
+        <div class="let-e let">E</div>
+        <div class="let-f let">F</div>
+        <div class="let-g let">G</div>
+        <div class="let-h let">H</div>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
+
+

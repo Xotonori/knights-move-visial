@@ -1,0 +1,68 @@
+/* Обнуляем маргины и падинги, делаем border-box для удобства*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+  display: flex;
+  justify-content: center;
+}
+
+.сhess-board {
+  border: 1px solid #000;
+  display: flex;
+  width: 51rem;
+  flex-wrap: wrap;
+
+}
+
+.board {
+  border: 1px solid #e3e1e1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+}
+
+.board-line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.point {
+  width: 5rem;
+  height: 5rem;
+  transition: background-color 0.4s ease-out;
+}
+
+.black-point {
+  background-color: #000;
+}
+
+.letters {
+  display: flex;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 10%;
+  align-self: stretch;
+  justify-content: space-around;
+}
+
+.let {
+  margin: 1rem 3.6rem 1rem 0;
+}
+
+.let-a {
+  margin-left: 7rem
+}
+
+
